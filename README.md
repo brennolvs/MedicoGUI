@@ -4,6 +4,8 @@ Aplicação **desktop em Java** com interface gráfica para cadastro de médicos
 
 > Projeto acadêmico desenvolvido no início dos meus estudos em Java, mantido aqui como registro da minha evolução.
 
+
+
 ## Sobre o projeto
 
 O objetivo foi praticar a construção de uma aplicação com interface gráfica conectada a um banco de dados relacional, separando as responsabilidades em camadas:
@@ -30,7 +32,7 @@ CadastroMedico (View) ──► MedicoController ──► MedicoDao ──► F
                                  └── Medico (Modelo)
 ```
 
-##  Estrutura do projeto
+## Estrutura do projeto
 
 ```
 Medicos/
@@ -50,10 +52,10 @@ Medicos/
 └── bin/                            # Arquivos compilados (.class)
 ```
 
-##  Pré-requisitos
+## Pré-requisitos
 
 - JDK instalado
-- MySQL Server  Servidor de banco de dados
+- MySQL Server Servidor de banco de dados
 - Driver JDBC do banco adicionado ao *Build Path* do projeto
 
 ## Configuração do banco de dados
